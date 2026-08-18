@@ -1,0 +1,42 @@
+{
+  "policy": "Only ingest public professional data, official firm pages, user-provided exports, or licensed datasets. Do not scrape login-gated/private data or guess personal contacts.",
+  "sources": [
+    {
+      "name": "Historical open Crunchbase snapshot",
+      "type": "dataset",
+      "mode": "bundled",
+      "path": "data/raw/investors-historical.csv",
+      "freshness": "historical"
+    },
+    {
+      "name": "OpenVC",
+      "type": "directory",
+      "mode": "manual_or_licensed_export",
+      "notes": "Import only data you are permitted to reuse; do not scrape protected pages."
+    },
+    {
+      "name": "Crunchbase",
+      "type": "directory",
+      "mode": "licensed_export_or_api",
+      "notes": "Use licensed export/API or public official pages; respect terms."
+    },
+    {
+      "name": "LinkedIn",
+      "type": "professional_network",
+      "mode": "link_out_only",
+      "notes": "Use public profile URLs/search links and approved APIs. Do not scrape login-gated profiles or private contact data."
+    },
+    {
+      "name": "VC official websites",
+      "type": "web",
+      "mode": "public_pages",
+      "notes": "Preferred source for current team, thesis, public emails, public business phone, application route and verification date."
+    },
+    {
+      "name": "LLM enrichment",
+      "type": "optional",
+      "mode": "github_actions_secret",
+      "notes": "May summarize already-public source material; every claim must retain source URL + verified_at. Never treat model output as a primary source."
+    }
+  ]
+}
