@@ -1,0 +1,26 @@
+name: Verified investor update
+description: Submit a sourced correction or new professional contact
+title: "Investor update: "
+labels: [data-update]
+body:
+  - type: input
+    id: investor
+    attributes: {label: Investor / fund, placeholder: "e.g. Example Ventures"}
+    validations: {required: true}
+  - type: dropdown
+    id: field
+    attributes:
+      label: Field
+      options: [Key person, Public professional email, Public business phone, Official pitch route, Cheque range, Stage, Sector, Geography, Recent investment, Other]
+    validations: {required: true}
+  - type: input
+    id: value
+    attributes: {label: Verified value}
+    validations: {required: true}
+  - type: input
+    id: source
+    attributes: {label: Source URL, description: "Official/public/licensed source only"}
+    validations: {required: true}
+  - type: textarea
+    id: notes
+    attributes: {label: Notes / why this is useful}
