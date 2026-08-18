@@ -1,0 +1,26 @@
+name: Refresh public investor data
+on:
+  schedule:
+    - cron: '20 3 * * 1'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pandas requests
+      - run: python scripts/enrich_public_data.py
+      - run: python scripts/build.py
+      - run: python scripts/validate.py
+      - name: Commit generated updates
+        run: |
+          git config user.name 'vc-hunter-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add data docs/data
+          git diff --cached --quiet || git commit -m 'chore: refresh investor data'
+          git push
