@@ -1,0 +1,24 @@
+{
+  "team": [
+    {
+      "id": "mohit",
+      "name": "Mohit",
+      "role": "Founder / fundraising lead"
+    },
+    {
+      "id": "febin",
+      "name": "Febin",
+      "role": "Growth / outreach"
+    },
+    {
+      "id": "adarsh",
+      "name": "Adarsh",
+      "role": "Research / investor intelligence"
+    },
+    {
+      "id": "deepanshi",
+      "name": "Deepanshi",
+      "role": "Partnerships / outreach"
+    }
+  ]
+}
