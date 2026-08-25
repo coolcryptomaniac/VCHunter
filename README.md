@@ -65,3 +65,15 @@ You can add repo secrets such as `OPENAI_API_KEY` or another provider and write 
 
 ## Team sharing
 Each person's browser keeps a separate activity record. Use **Export my activity** to generate a JSON file. Shared/final facts should be submitted through the included GitHub issue templates or committed via PR.
+
+
+## US Strategic Network
+The app now contains a curated NYC / SF / LA professional network plus Web3 connectors. It stores only verified public professional email routes where available and otherwise uses LinkedIn or the official organization route. Nicole Sun is not labeled as a former TRON CMO because that claim could not be verified; Min H. Kim is separately identified with her verified TRON/Polygon/HBAR history.
+
+
+## Network 100 expansion
+The US Strategic Network now contains 100 professional women investor/operator discovery profiles. High-confidence entries preserve verified direct professional routes; broader discovery entries use LinkedIn search and official-firm discovery links and are explicitly marked for verification before outreach. `Kiara Sun` is not asserted as an investor because the identity could not be matched reliably.
+
+
+## Ciara Sun
+Verified and added: Founder & Managing Partner, C² Ventures; former Huobi VP Global Business / Head of Listings & Blockchain Investments. Public fund contact: ir@csquared.vc.
