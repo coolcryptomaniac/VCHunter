@@ -1,0 +1,43 @@
+{
+  "company": "Roamwise",
+  "url": "https://www.roamwise.co.in",
+  "snapshot_date": "2026-09-05",
+  "public_version": "v3.1",
+  "positioning": "AI travel planner for any destination on Earth with smart itineraries, crowd heatmaps, real budget breakdowns and packing lists.",
+  "public_metrics": {
+    "countries": "195+",
+    "max_itinerary_days": 14,
+    "currencies": 10,
+    "crowd_months": 12,
+    "india_pro_price": "₹100 one-time",
+    "global_pro_price": "$4.99 one-time"
+  },
+  "features": [
+    "Smart Search works without an API key",
+    "Shinobi crowd-dodging routes",
+    "Trek Vault",
+    "Fresh Experiences",
+    "Legendary Circuits",
+    "Event Radar",
+    "Hub & Spoke India",
+    "EV Vault",
+    "Basecamp",
+    "Journey Card",
+    "Traveler DNA",
+    "Budget tracker",
+    "Packing checklist",
+    "Visa details",
+    "WhatsApp sharing",
+    "AI enhancement through Gemini, Groq/Llama, OpenRouter, Mistral or Claude"
+  ],
+  "business_model": [
+    "Free search tier",
+    "India Pro: ₹100 lifetime launch price",
+    "Worldwide Pro: $4.99 lifetime",
+    "Supporter tier: ₹299+"
+  ],
+  "founder_pitch_core": "Roamwise is building a travel decision and execution layer rather than another itinerary generator: AI planning plus crowd intelligence, budget realism, trip constraints and eventually transactions, travel services and destination intelligence.",
+  "source": "https://www.roamwise.co.in",
+  "public_only": true,
+  "private_notes_policy": "Founder traction, fundraising targets and private updates must stay in browser localStorage unless deliberately exported by the founder."
+}
