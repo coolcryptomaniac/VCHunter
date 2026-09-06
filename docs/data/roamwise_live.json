@@ -1,7 +1,7 @@
 {
   "company": "Roamwise",
   "url": "https://www.roamwise.co.in/",
-  "snapshot_date": "2026-09-05",
+  "snapshot_date": "2026-09-06",
   "public_version": "v3.1",
   "positioning": "AI travel planner for any destination on Earth with smart itineraries, crowd heatmaps, real budget breakdowns and packing lists.",
   "public_metrics": {
@@ -40,5 +40,5 @@
   "source": "https://www.roamwise.co.in/",
   "public_only": true,
   "private_notes_policy": "Founder traction, fundraising targets and private updates must stay in browser localStorage unless deliberately exported by the founder.",
-  "synced_at_utc": "2026-09-05T07:01:22.973034+00:00"
+  "synced_at_utc": "2026-09-06T07:13:13.306767+00:00"
 }
